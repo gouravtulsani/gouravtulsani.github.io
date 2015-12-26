@@ -1,0 +1,13 @@
+#container{
+	background-color: #eee;
+	padding-top: 5%;
+	padding:2%;
+}
+li {
+	color:white;
+}
+#footer{
+	background-color: black;	
+	height: 50px;
+	text-align: center;
+}

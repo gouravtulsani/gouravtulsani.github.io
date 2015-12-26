@@ -1,0 +1,74 @@
+
+.navbar{
+	margin: 9px;
+}
+
+h3 ,h4,  li, .navbar {
+	letter-spacing: 2px;
+}
+
+.profilepic{
+	max-width: 100%;
+	display:block;
+    margin:auto;
+    padding: 10px;
+}
+.col-md-5{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.home {
+	min-height: 500px; 
+}
+.project .skills{	
+	padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .content{
+		margin-top: 100px;
+	}
+}
+@media screen and (max-width: 768px) {
+    .project-icon{
+    	text-align: center;
+    }
+    .project{
+	padding: 25px;
+	text-align: center;
+	}
+	.home{
+		padding: 0px 5px 0px 5px; 
+	}
+}
+
+.align-left{
+	text-align: left;
+}
+
+@font-face {
+  font-family: "Kimberley";
+  src: url(./fonts/MYRIADPRO-BOLD.OTF) format("truetype");
+}
+
+.navbar {
+font-size: 16px;
+ font-family: "Kimberley", sans-serif; } 
+@font-face {
+  font-family: "Kimberle";
+  src: url(./fonts/Md_Gothic11.ttf) format("truetype");
+}
+.heading{
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-family: "Kimberle",serif; 
+}
+@font-face {
+	font-family:  "ubuntu";
+	src : url(./fonts/DroidSans.ttf) ;
+}
+p{
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-family: "ubuntu" ;
+}
